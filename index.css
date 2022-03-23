@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+
+section#conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#info {
+    width: 49%;
+}
+
+section#info section {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+section#temas section {
+    width: 100%;
+    height: 100px;
+}
+
+section.tema {
+    border: 1px solid black;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.tema img {
+    height: 100%;
+    border-left: 1px solid black;
+}
+
+section.informação {
+    border: 1px solid black;
+}
+
+section.lista-de-temas {
+    border: 1px solid black;
+}
+
+section.lista-de-temas ul {
+    list-style-type: none;
+}
+
+section#temas {
+    width: 49%;
+}
+
+section#temas h2 {
+    padding: 20px 10px;
+}
+
+section#sugestao {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}

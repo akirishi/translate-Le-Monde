@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+
+section#conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section#cardapios {
+    width: 49%;
+}
+
+section#cardapios img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+section#info {
+    margin: 20px 0;
+    width: 49%;
+}
+
+section#info article {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+ul.regioes {
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
