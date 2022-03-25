@@ -1,0 +1,35 @@
+:root {
+    --marsala: rgb(131, 1, 1);
+}
+
+section#eventos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+section.evento {
+    text-align: center;
+    border: 5px solid var(--marsala);
+    margin: 10px 0;
+    background-color: white;
+    color: var(--marsala);
+    width: 30%;
+}
+
+section.evento img {
+    width: 100%;
+}
+
+section#evento-principal {
+    width: 100%;
+    text-align: center;
+    border: 5px solid var(--marsala);
+    background-color: white;
+    color: var(--marsala);
+    margin-bottom: 10px;
+}
+
+section#evento-principal img {
+    width: 100%;
+}

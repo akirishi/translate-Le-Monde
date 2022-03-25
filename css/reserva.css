@@ -1,0 +1,44 @@
+:root {
+    --marsala: rgb(131, 1, 1);
+}
+
+section#info a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+section#info a input {
+    background-color: white;
+    border: 5px solid var(--marsala);
+    width: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+section#info a input:hover {
+    background-color: var(--marsala);
+    color: white;
+    width: 100%;
+    padding: 1%;
+}
+
+section.linha {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+section.mesa {
+    text-align: center;
+    margin: 10px 0;
+    border: 5px solid var(--marsala);
+    width: 24%;
+    background-color: white;
+}
+
+section.mesa img {
+    width: 100%;
+}
